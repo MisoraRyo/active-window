@@ -11,8 +11,8 @@
     "subscript_url":"scripts/mac.scpt"
   },
   "win32":{
-    "bin"    :"powershell",
-    "parameters" : ["-ExecutionPolicy", "Bypass","-File"],
+    "bin"    :"cmd.exe",
+    "parameters" : ["/c","chcp 65001 > NUL & powershell -ExecutionPolicy Bypass -File"],
     "script_url" : "scripts\\windows.ps1"
   }
 }
