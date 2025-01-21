@@ -11,5 +11,6 @@
                   , "url" : ""}
                 ],
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "postinstall": "npm run build"
 }
