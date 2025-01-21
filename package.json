@@ -13,7 +13,6 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-        ...
         "postinstall": "npm run build"
     }
 }
